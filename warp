@@ -4,7 +4,7 @@ termux-reload-settings
 pkg install tor nodejs proxychains-ng nano
 rm -rf /data/data/com.termux/files/usr/etc/tor/torrc
 cp torrc /data/data/com.termux/files/usr/etc/tor
-rm -rf proxychains.conf /data/data/com.termux/files/usr/etc/proxychains.conf
+rm -rf /data/data/com.termux/files/usr/etc/proxychains.conf
 cp proxychains.conf /data/data/com.termux/files/usr/etc
 nano warp.js
 sh start
