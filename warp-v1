@@ -1,0 +1,9 @@
+sudo apt install tor proxychains nodejs
+sudo rm -rf /etc/tor/torrc
+sudo cp torrc /etc/tor
+sudo rm -rf /etc/proxychains.conf
+sudo cp proxychains.conf /etc
+nano warp.js
+sudo service tor start
+sudo proxychains node warp.js
+
