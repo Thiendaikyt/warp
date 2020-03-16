@@ -1,3 +1,2 @@
 sv once tor
-sv exit tor
 proxychains4 node warp.js
